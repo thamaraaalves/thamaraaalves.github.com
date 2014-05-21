@@ -3,8 +3,11 @@
 {% case site.JB.analytics.provider %}
 {% when "google" %}
   {% include JB/analytics-providers/google %}
+<<<<<<< HEAD
 {% when "googleUA" %}
   {% include JB/analytics-providers/googleUA %}
+=======
+>>>>>>> d7bba4f500ad948f7f634cfdcefc849e709642f4
 {% when "getclicky" %}
   {% include JB/analytics-providers/getclicky %}
 {% when "mixpanel" %}
@@ -15,4 +18,8 @@
   {% include custom/analytics %}
 {% endcase %}
 
+<<<<<<< HEAD
 {% endif %}
+=======
+{% endif %}
+>>>>>>> d7bba4f500ad948f7f634cfdcefc849e709642f4
