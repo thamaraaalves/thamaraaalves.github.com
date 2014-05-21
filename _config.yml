@@ -5,7 +5,6 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
-
 # https://help.github.com/articles/migrating-your-pages-site-from-maruku
 markdown: kramdown
 
@@ -20,19 +19,6 @@ author :
   github : username
   twitter : username
   feedburner : feedname
-=======
-# Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
-#
-title : Jekyll Bootstrap
-tagline: Site Tagline
-author :
-  name : Thamara Alves
-  email : Thamara.Alves@dal.ca
-  github : thamaraaalves
-  twitter : thamaraaalves
-  feedburner : thamaraaalves
->>>>>>> d7bba4f500ad948f7f634cfdcefc849e709642f4
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -42,11 +28,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-<<<<<<< HEAD
 production_url : http://username.github.io
-=======
-production_url : http://thamaraaalves.github.io
->>>>>>> d7bba4f500ad948f7f634cfdcefc849e709642f4
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -121,14 +103,10 @@ JB :
   analytics :
     provider : google 
     google : 
-<<<<<<< HEAD
         tracking_id : 'UA-***'
     googleUA :
         tracking_id : 'UA-***'
         property_name : 'PROPERTY NAME'
-=======
-        tracking_id : 'UA-123-12'
->>>>>>> d7bba4f500ad948f7f634cfdcefc849e709642f4
     getclicky :
       site_id : 
     mixpanel :

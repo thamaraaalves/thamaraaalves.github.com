@@ -40,21 +40,12 @@ module JB
   end #Path
 end #JB
 
-<<<<<<< HEAD
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1, tag2]]
-=======
-# Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
->>>>>>> d7bba4f500ad948f7f634cfdcefc849e709642f4
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-post"
   tags = ENV["tags"] || "[]"
-<<<<<<< HEAD
-=======
-  category = ENV["category"] || ""
-  category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
->>>>>>> d7bba4f500ad948f7f634cfdcefc849e709642f4
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
@@ -73,11 +64,7 @@ task :post do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'description: ""'
-<<<<<<< HEAD
     post.puts "category: "
-=======
-    post.puts "category: #{category}"
->>>>>>> d7bba4f500ad948f7f634cfdcefc849e709642f4
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
