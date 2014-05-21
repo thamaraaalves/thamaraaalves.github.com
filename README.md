@@ -39,9 +39,3 @@ The documentation website at <http://jekyllbootstrap.com> is maintained at https
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
-<<<<<<< HEAD
-=======
-=======
-thamaraaalves.github.com
-========================
->>>>>>> fba2c049c9df918f9ee5bc64af365b5aa06823b4
