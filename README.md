@@ -1,5 +1,3 @@
-# [zenorocha.com](http://zenorocha.com)
-
 My personal website where I talk about front-end development like HTML5, CSS3 and JavaScript.
 
 ## How it works?
