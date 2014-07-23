@@ -1,4 +1,4 @@
-My personal website where I talk about development web, mobile, and others stuffs.
+My personal website where I talk about web, and mobile development.
 
 ## How it works?
 
