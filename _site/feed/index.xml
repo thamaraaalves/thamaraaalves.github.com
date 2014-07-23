@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://thamaraaalves.github.io/blog</id>
   <title>Blog - Thamara Alves</title>
-  <icon>http://thamaraaalves.github.io/favicon.ico</icon>
+  <!-- <icon>http://thamaraaalves.github.io/favicon.ico</icon> -->
   <link href="http://thamaraaalves.github.io/index.xml" rel="self" />
   <link href="http://thamaraaalves.github.io/blog" />
   
@@ -10,7 +10,7 @@
   <entry>
     <id>http://thamaraaalves.github.io/hello-world</id>
     <title>Hello world</title>
-    <updated>2011-04-12T00:00:00-03:00</updated>
+    <updated>2014-07-22T00:00:00-03:00</updated>
     <link href="http://thamaraaalves.github.io/hello-world/" />
     <author>
       <name>Thamara Alves</name>
