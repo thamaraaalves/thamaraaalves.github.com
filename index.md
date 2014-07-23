@@ -7,4 +7,6 @@ Hello, there! I’m Thamara come from Brazil. I was born in 17/01/1991. Was rese
 
 Started programming as desktop developer, from Pascal until C#. Now, in process to be full stack developer. Learning design, mobile and web at the same time. Creating app's, mockup's, and web app's. I like to use Node js, phonegap, cordova, angular, ionic, firebase, mongodb. 
 
-Enjoy seeing <a href="../projects/index.html"><strong>Projects</strong></a> (my creations, children, toys...haha). I love challenges. Always doing the "best possible". Fixing my own errors. 
+Enjoy seeing <a href="../projects/index.html"><strong>Projects</strong></a>. And here ><a href="https://docs.google.com/file/d/0B8cWi3slAjyXRWUwbFh2OU82RU0"><strong>My curriculum. Enjoy, also!</strong></a>I love challenges. Always doing the "best possible". Fixing my own errors.   
+
+Because... "Some infinities are bigger than other infinities." (2014, T.F.O.S). Pardon me, but I'm not perfect!
