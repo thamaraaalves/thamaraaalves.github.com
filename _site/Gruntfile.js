@@ -4,7 +4,7 @@ module.exports = function(grunt) {
       all: {
         src: [
           '*', '_includes/*', '_layouts/*', '_plugins/*', '_posts/*', 'blog/*',
-          'feed/*', 'projects/*', 'projects-full/*', 'talks/*'
+          'feed/*', 'projects/*'
         ],
         options: {
           newline: false,
