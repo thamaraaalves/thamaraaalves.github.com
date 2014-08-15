@@ -1,4 +1,4 @@
-My personal website where I talk about front-end development like HTML5, CSS3 and JavaScript.
+My personal website where I talk about web, and mobile development.
 
 ## How it works?
 
@@ -92,7 +92,7 @@ It's the file responsible for all application sections.
 
 ## Credits
 
-Inspired by Andy Taylor.
+Inspired by Andy Taylor, and Zeno Rocha.
 
 ## License
 

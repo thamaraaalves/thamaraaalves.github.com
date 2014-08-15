@@ -1,45 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://thamaraaalves.github.io/blog</id>
+  <id>http://thamaraaalves.github.com/blog</id>
   <title>Blog - Thamara Alves</title>
-  <!-- <icon>http://thamaraaalves.github.io/favicon.ico</icon> -->
-  <link href="http://thamaraaalves.github.io/index.xml" rel="self" />
-  <link href="http://thamaraaalves.github.io/blog" />
+  <icon>http://thamaraaalves.github.com/favicon.ico</icon>
+  <link href="http://thamaraaalves.github.com/index.xml" rel="self" />
+  <link href="http://thamaraaalves.github.com/blog" />
   
   
   <entry>
-    <id>http://thamaraaalves.github.io/hello-world</id>
+    <id>http://thamaraaalves.github.com/hello-world</id>
     <title>Hello world</title>
-    <updated>2014-07-22T00:00:00-03:00</updated>
-    <link href="http://thamaraaalves.github.io/hello-world/" />
+    <updated>2014-07-23T00:00:00-03:00</updated>
+    <link href="http://thamaraaalves.github.com/hello-world/" />
     <author>
       <name>Thamara Alves</name>
-      <uri>http://thamaraaalves.github.io/</uri>
+      <uri>http://thamaraaalves.github.com/</uri>
     </author>
     <content type="html">
-      &lt;p&gt;Era terça-feira, dia 5 de abril.&lt;/p&gt;
+      &lt;p&gt; Hello, guys! This is my first post here. I intend to write just in English. I arrived from Canada a week. Now, I will keep practicing English in my life. &lt;/p&gt;
 
-&lt;p&gt;Entro na sala da Uniriotec Consultoria (Empresa Jr. da Unirio), no meio de uma entusiasmada conversa entre &lt;a href=&quot;http://victorfontes.com/&quot; target=&quot;_blank&quot;&gt;Victor Fontes&lt;/a&gt;, &lt;a href=&quot;http://nighto.net/&quot; target=&quot;_blank&quot;&gt;Arlindo Pereira&lt;/a&gt;, &lt;a href=&quot;http://tiagoveloso.com/&quot; target=&quot;_blank&quot;&gt;Tiago Veloso&lt;/a&gt; e &lt;a href=&quot;http://pedromarins.com/&quot; target=&quot;_blank&quot;&gt;Pedro Marins&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; So, I’m gonna use this blog to write things I did in Canada, my experience, my intentions, and what I’m learning, my doubts, anyway keep two or one posts a week. &lt;/p&gt;
 
-&lt;p&gt;O assunto era a difícil tarefa de manter a regularidade de postagem nos seus respectivos blogs pessoais.&lt;/p&gt;
+&lt;p&gt; “If you don’t like something, change it. If you can’t change it, change your attitude.” M.A. &lt;/p&gt;
 
-&lt;p&gt;Resolveram então fazer uma aposta, ou você mantém a regularidade de 2 posts por semana ou paga um engradado de cerveja.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Na hora tentaram me convencer a entrar na aposta também, mas é claro que rejeitei em meio há tantas coisas que já tenho que cumprir na minha rotina, seria loucura tentar manter um blog ainda.&lt;/p&gt;
-
-&lt;p&gt;Uma semana depois, durante a aula vejo o seguinte &lt;a href=&quot;http://twitter.com/#!/victorfontes/status/57587464906342401&quot; target=&quot;_blank&quot;&gt;tweet&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;- &lt;a title=&quot;Victor Fontes Costa&quot; href=&quot;http://twitter.com/victorfontes&quot; target=&quot;_blank&quot;&gt;@victorfontes&lt;/a&gt; &lt;em&gt;&lt;span class=&quot;status-body&quot;&gt;&lt;span class=&quot;status-content&quot;&gt;&lt;span class=&quot;entry-content&quot;&gt;&amp;#8221;@&lt;a href=&quot;http://twitter.com/pedromarins&quot; target=&quot;_blank&quot;&gt;pedromarins&lt;/a&gt; @&lt;a href=&quot;http://twitter.com/Nighto&quot; target=&quot;_blank&quot;&gt;Nighto&lt;/a&gt; @&lt;a href=&quot;http://twitter.com/TiagoVeloso&quot; target=&quot;_blank&quot;&gt;TiagoVeloso&lt;/a&gt; @&lt;a href=&quot;http://twitter.com/4rrud4&quot; target=&quot;_blank&quot;&gt;4rrud4&lt;/a&gt; Temos que convencer o @&lt;a href=&quot;http://twitter.com/zenorocha&quot; target=&quot;_blank&quot;&gt;zenorocha&lt;/a&gt; a entrar agora&amp;#8221;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Na hora, fiquei entre naquele difícil dilema: Assisto aula ou começo a desenvolver um agora mesmo?&lt;/p&gt;
-
-&lt;p&gt;Se você me conhece, já imagina que fiquei naquilo a aula toda, depois cheguei em casa e ainda continuei trabalhando nos últimos retoques.&lt;/p&gt;
-
-&lt;p&gt;Ainda tenho muita coisa para melhorar aqui, mas agora 01:19h entro oficialmente na aposta!&lt;/p&gt;
-
-&lt;p&gt;#vamoquevamo&lt;/p&gt;
 
     </content>
   </entry>
