@@ -3,10 +3,9 @@ layout: page
 class: home
 ---
 
-Hello, there! I’m Thamara come from Brazil. I'm 23 year old. Was researcher at Dalhousie University, Halifax, Nova Scotia, Canada.
+Hello, there! I’m Thamara come from Brazil. 
 
-Started programming as desktop developer, from Pascal until C#. Now, in process to be full stack developer. Learning design, mobile and web at the same time. Creating app's, mockup's, and web app's. I like to use Node js, phonegap, cordova, angular, ionic, firebase, mongodb. 
+I was born in Passos, Minas Gerais, Brazil, in 1991. I received my bachelor’s degree in information systems, in January, 2013, from the State University of Minas Gerais (UEMG) at Passos - Campus at FESP, Brazil. And March, 2013, I started my master’s degree at Federal University of São Carlos (UFScar), SP, working at the “Advanced Interaction Laboratory” (LIA), research related with Human-Computer Interaction (HCI). January, 2014, I went to the Dalhousie University, in Halifax, Nova Scotia, Canada, do research at the Faculty of Computer Science, working at the “Graphics and Experiential Media (GEM) Lab”, conducting project about privacy, as part of my Master’s Degree.
 
-Enjoy seeing <a href="../projects/index.html"><strong>my Projects</strong></a>. Portfolio front-end, just sample <a href="http://bit.ly/portfoliofrontend">portfolio front-end. </a> Or my<a href="https://docs.google.com/file/d/0B8cWi3slAjyXRWUwbFh2OU82RU0"><strong> curriculum, also!</strong></a> I love challenges. Always doing the "best possible". Fixing my own errors.   
 
-Because... "Some infinities are bigger than other infinities." (2014, T.F.O.S). Pardon me, but I'm not perfect!
+I'm not perfect. Just fixing my own errors, and learning more, everyday.
