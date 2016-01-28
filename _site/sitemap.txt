@@ -5,4 +5,5 @@
 /feed/index.xml
 /sitemap.txt
 
+/using-polymer-in-visual-studio-webform-project/
 /hello-world/
