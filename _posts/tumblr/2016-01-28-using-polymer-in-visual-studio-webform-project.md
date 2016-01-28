@@ -12,21 +12,20 @@ This is a professional post. I started to learn polymer, webcomponents, to creat
 
 Anyway, the question is **"How to install polymer in the project"**?
 
-![Image alt]({{ site.baseurl }}/webcomponent.png "image title")
+![Picture description](webcomponent.png){: .center-image }
 
 First of all, make sure you have nodejs, and git installed in your computer. If not, install them:
 
 **Nodejs**: https://nodejs.org/en/ 
 **Git**: https://git-scm.com/downloads
 
+
 **Step-by-step:**
 
 1- create a webform/mvc project
 2- in node js (with bower, polymer, and git installed)
-3- inside the project folder: 
-        comand: bower init > set the settings
-4- after 
-        comand: bower install Polymer/polymer --save
+3- inside the project folder execute the comand: bower init > after set the settings
+4- after execute the command: bower install Polymer/polymer --save
 
 
 **Others comands options:**
@@ -37,7 +36,7 @@ comand: bower info polymer/polymer
 
 If you have some trouble with **git command** in node.js prompt, try this below:
 
-comand: set PATH=%PATH%;C:\Users\Thamara Alves\AppData\Local\Programs\Git\bin
+execute the comand: set PATH=%PATH%;C:\Users\Thamara Alves\AppData\Local\Programs\Git\bin
 
 but, change the <Name of the computer>
 
@@ -51,4 +50,4 @@ set PATH=%PATH%;C:\Program Files (x86)\Git\bin;
 **Comands to install new elements:**
 
 inside the path: Scripts\bower_components\webcomponentsjs> 
-comand> bower install --save PolymerElements
+execute the comand: bower install --save PolymerElements

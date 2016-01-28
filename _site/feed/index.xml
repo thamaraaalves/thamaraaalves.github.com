@@ -23,7 +23,7 @@
 
 &lt;p&gt;Anyway, the question is &lt;strong&gt;“How to install polymer in the project”&lt;/strong&gt;?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;webcomponent.png&quot; alt=&quot;alt tag&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/webcomponent.png&quot; alt=&quot;Image alt&quot; title=&quot;image title&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;First of all, make sure you have nodejs, and git installed in your computer. If not, install them:&lt;/p&gt;
 
