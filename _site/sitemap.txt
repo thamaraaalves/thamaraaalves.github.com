@@ -1,0 +1,8 @@
+
+/projects/index.html
+/blog/index.html
+/index.html
+/feed/index.xml
+/sitemap.txt
+
+/hello-world/
