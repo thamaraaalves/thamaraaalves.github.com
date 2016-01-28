@@ -12,7 +12,7 @@ This is a professional post. I started to learn polymer, webcomponents, to creat
 
 Anyway, the question is **"How to install polymer in the project"**?
 
-![alt tag](webcomponent.png)
+![Image alt]({{ site.baseurl }}/webcomponent.png "image title")
 
 First of all, make sure you have nodejs, and git installed in your computer. If not, install them:
 
