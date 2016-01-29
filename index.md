@@ -9,8 +9,6 @@ I’m Thamara come from Brazil.
 
 Living for the second time in Canada, in Montreal, since september 4th, 2015.
 
-My ❤ actually is divided between Brazil and Canada.
-
 I am working for the first time as a .Net Developer. I was working with "Enterprise Resource Planing" in Sao Paulo, Brazil, during 10 months. 
 
 From Minas Gerais ❤ , Fortaleza de Minas.
