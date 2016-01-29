@@ -3,7 +3,9 @@ layout: page
 class: home
 ---
 
-Hello, there! I’m Thamara come from Brazil. Living for the second time in Canada, in Montreal, since september 4th, 2015.
+Hello, there! I’m Thamara come from Brazil. 
+
+Living for the second time in Canada, in Montreal, since september 4th, 2015.
 
 My ❤ actually is divided between Brazil and Canada.
 
