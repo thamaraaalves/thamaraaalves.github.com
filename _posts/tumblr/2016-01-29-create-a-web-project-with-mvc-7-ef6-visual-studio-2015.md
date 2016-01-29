@@ -10,7 +10,7 @@ I created a tutorial video in youtube explainning how to create a project using 
 
 So, take a look, below is the video. 
 
-**(Unfortunately, there is no audio, and the I didn't finish the edition. Pardon me! =/)**
+**(Unfortunately, there is no audio, and I didn't finish the edition. Pardon me! =/)**
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=I69IAkVq2y4
 " target="_blank"><img src="http://img.youtube.com/vi/I69IAkVq2y4/0.jpg" 
