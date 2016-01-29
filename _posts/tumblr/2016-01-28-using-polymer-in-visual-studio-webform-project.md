@@ -12,7 +12,8 @@ This is a professional post. I started to learn polymer, webcomponents, to creat
 
 Anyway, the question is **"How to install polymer in the project"**?
 
-![WebComponent](/webcomponent.png) 
+![WebComponent]({{ site.url }}/assets/img/webcomponent.png) 
+![README](/assets/img/posts/webcomponent.png)
 
 First of all, make sure you have nodejs, and git installed in your computer. If not, install them:
 
@@ -26,7 +27,6 @@ First of all, make sure you have nodejs, and git installed in your computer. If 
 2- in node js (with bower, polymer, and git installed)
 3- inside the project folder execute the comand: bower init > after set the settings
 4- after execute the command: bower install Polymer/polymer --save
-
 
 **Others comands options:**
 
