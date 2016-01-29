@@ -3,19 +3,15 @@ layout: page
 class: home
 ---
 
-Hello, there! 
+Hello, guys! 
 
-I’m Thamara come from Brazil. 
+I’m Thamara, come from Brazil. Living for the second time in Canada.
 
-Living for the second time in Canada, in Montreal, since september 4th, 2015.
+Working as a .Net Developer. 
 
-I am working for the first time as a .Net Developer. I was working with "Enterprise Resource Planing" as a System Analyst in Sao Paulo, Brazil, during 10 months. 
+From Minas Gerais ❤ , Fortaleza de Minas, Brazil.
 
-From Minas Gerais ❤ , Fortaleza de Minas.
-
-Here, I'll write about professional, and personal things, BECAUSE, I really enjoy to write about life at all. 
-
-Be free!
+Curious, paixonate, lover, strong as much to live far from people I love to make dreams come true. 
 
 **About me:**
 

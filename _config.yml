@@ -64,3 +64,15 @@ rdiscount:
     coderay_css: style
 
 excerpt_separator: "<!-- more -->"
+
+# add this plugin to gems
+gems:           ['jekyll-multiple-languages']
+# if you want to use pagination, you should add jekyll-paginate into gems
+# and make sure it is in front of jekyll-multiple-languages
+# gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
+
+# The all languages used
+languages:          ['en', 'br']
+
+# If not config, the first item of languages will be used as the default.
+language_default:   'en'
