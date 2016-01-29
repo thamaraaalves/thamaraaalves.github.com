@@ -12,12 +12,12 @@ This is a professional post. I started to learn polymer, webcomponents, to creat
 
 Anyway, the question is **"How to install polymer in the project"**?
 
-/_posts/ { webcomponent.png  }
+![WebComponent](/webcomponent.png) 
 
 First of all, make sure you have nodejs, and git installed in your computer. If not, install them:
 
 **Nodejs**: [Nodejs]( https://nodejs.org/en/)  
-**Git**: [GitHub] (https://git-scm.com/downloads)
+**Git**: [GitHub](https://git-scm.com/downloads)
 
 
 **Step-by-step:**
