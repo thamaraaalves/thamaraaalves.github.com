@@ -16,8 +16,8 @@ Anyway, the question is **"How to install polymer in the project"**?
 
 First of all, make sure you have nodejs, and git installed in your computer. If not, install them:
 
-**Nodejs**: https://nodejs.org/en/ 
-**Git**: https://git-scm.com/downloads
+**Nodejs**: [Nodejs]( https://nodejs.org/en/)  
+**Git**: [GitHub] (https://git-scm.com/downloads)
 
 
 **Step-by-step:**
