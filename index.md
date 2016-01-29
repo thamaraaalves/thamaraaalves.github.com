@@ -9,7 +9,7 @@ I’m Thamara come from Brazil.
 
 Living for the second time in Canada, in Montreal, since september 4th, 2015.
 
-I am working for the first time as a .Net Developer. I was working with "Enterprise Resource Planing" in Sao Paulo, Brazil, during 10 months. 
+I am working for the first time as a .Net Developer. I was working with "Enterprise Resource Planing" as a System Analyst in Sao Paulo, Brazil, during 10 months. 
 
 From Minas Gerais ❤ , Fortaleza de Minas.
 
