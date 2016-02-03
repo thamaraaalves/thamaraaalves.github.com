@@ -13,6 +13,7 @@ From Minas Gerais ❤ , Fortaleza de Minas, Brazil.
 
 Curious, paixonate, lover, strong as much to live far from people I love to make dreams come true. 
 
+
 **About me:**
 
 I received my bachelor’s degree in information systems, in January, 2013, from the State University of Minas Gerais (UEMG) at Passos, Brazil, and March, 2013, 
