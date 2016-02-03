@@ -39,10 +39,12 @@ you have to import the stylesheet putting the code bellow inside the tags < styl
     @import url('<%= Page.ResolveUrl("~/Content/kendo/kendo.common.min.css") %>')
      
     
-**References and fonts:**   
+**References and some fonts:**   
 
 [W3 Shadow DOM](https://www.w3.org/TR/shadow-dom/)
 
 [HTML5 Rocks](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
+
+
 
 Merci! :)
