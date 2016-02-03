@@ -38,6 +38,29 @@ you have to import the stylesheet putting the code bellow inside the tags < styl
     /* to use external style sheets inside shadow dom */
     @import url('<%= Page.ResolveUrl("~/Content/kendo/kendo.common.min.css") %>')
      
+
+Anyway, we can't forget the HTML structure with the tags(template, content), below a simple code:
+
+        <template id="template">
+          
+         <%--css style--%>
+         < style >
+        
+            /* to use external style sheets inside shadow dom */
+            @import url('<%= Page.ResolveUrl("~/Content/kendo/kendo.common.min.css") %>');
+         
+          
+         < / style >
+                  
+        <%-- structure DOM elements   --%>
+        <%--  content --%>
+            <div id="Content">
+            
+                <div id="grid" ></div>  
+                <content> </content>
+            </div>
+        
+        </template>
     
 **References and some fonts:**   
 
