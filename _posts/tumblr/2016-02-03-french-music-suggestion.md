@@ -6,6 +6,8 @@ category:
 tags: []
 ---
 
+:+1:!
+
 I love music, really may consider me a 'person addicted to music' :relaxed: :heart:
 
 So, I've been studying french some weeks ago, bellow is a good music in french. Today, I am listening and repeating this music since I started to work :headphones: 

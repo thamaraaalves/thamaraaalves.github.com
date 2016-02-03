@@ -76,3 +76,5 @@ languages:          ['en', 'br']
 
 # If not config, the first item of languages will be used as the default.
 language_default:   'en'
+
+gems: ["emoji_for_jekyll"]
