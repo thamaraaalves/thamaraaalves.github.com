@@ -33,15 +33,16 @@ Later, I'm gonna explain with details, and with better documentation.
     }
 
 One important thing is when you create a shadow DOM, your ROOT will be encapsulate, to customize, for example if you are using KENDO UI framework, 
-you have to important the stylesheet, putting the code bellow inside the tags <style> </style>:
-
+you have to import the stylesheet putting the code bellow inside the tags < style > < /style >:
 
     /* to use external style sheets inside shadow dom */
     @import url('<%= Page.ResolveUrl("~/Content/kendo/kendo.common.min.css") %>')
      
     
-** References and fonts: **   
+**References and fonts:**   
+
 [W3 Shadow DOM](https://www.w3.org/TR/shadow-dom/)
+
 [HTML5 Rocks](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
 
 Merci! :)
