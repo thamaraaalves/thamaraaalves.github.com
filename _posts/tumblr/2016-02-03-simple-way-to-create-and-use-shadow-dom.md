@@ -30,5 +30,25 @@ I met shadow DOM when I was studying web components. Bellow, is a simple code to
         var DeleteCalendarButtonID= $(root.getElementById('DeleteButton'));  
 
     }
+    
+
+One important thing is when you create a shadow DOM, your ROOT will be encapsulate, to customize, for example if you are using KENDO UI framework, you have to important the stylesheet like the bellow code:
+
+<style>
+
+    /* to use external style sheets inside shadow dom */
+    @import url('<%= Page.ResolveUrl("~/Content/kendo/kendo.common.min.css") %>');  
+    @import url('<%= Page.ResolveUrl("~/Content/kendo/kendo.uniform.min.css") %>'); 
+    @import url('<%= Page.ResolveUrl("~/XXXX/css/XXXX.kendo.css") %>'); 
+    @import url('<%= Page.ResolveUrl("~/XXXX/css/Validation.css") %>');  
+       
+      .Content {
+            width: 770px;
+        }
+</style        
+    
+** References and fonts: **   
+[W3 Shadow DOM](https://www.w3.org/TR/shadow-dom/)
+[HTML5 Rocks](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
 
 Merci! :)
