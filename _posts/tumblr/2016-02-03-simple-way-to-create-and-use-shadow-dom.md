@@ -27,7 +27,7 @@ I met shadow DOM when I was studying web components. Bellow, is a simple code to
         root.appendChild(clone);
     
         //2. create variables
-        var DeleteCalendarButtonID= $(root.getElementById('DeleteButton'));  
+        var DeleteButtonID= $(root.getElementById('DeleteButton'));  
 
     }
     
