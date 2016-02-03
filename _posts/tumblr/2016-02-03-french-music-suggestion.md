@@ -6,11 +6,9 @@ category:
 tags: []
 ---
 
-:+1:!
+I love music, really may consider me a 'person addicted to music' 
 
-I love music, really may consider me a 'person addicted to music' :relaxed: :heart:
-
-So, I've been studying french some weeks ago, bellow is a good music in french. Today, I am listening and repeating this music since I started to work :headphones: 
+So, I've been studying french some weeks ago, bellow is a good music in french. Today, I am listening and repeating this music since I started to work 
 [OnRepeat](https://listenonrepeat.com/?v=gj7ijv_Si5k#Lefa_-_20_ans_(Clip_officiel))
 
 **To listen:** 
@@ -24,4 +22,4 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 <a href='http://genius.com/Lefa-20-ans-lyrics'>“20 ans” by Lefa</a> on Genius</div> 
 <script crossorigin src='//genius.com/songs/2373202/embed.js'></script>
 
-Bonne journée :kissing_closed_eyes: :kissing_closed_eyes:
+Bonne journée! 

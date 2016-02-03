@@ -78,3 +78,5 @@ languages:          ['en', 'br']
 language_default:   'en'
 
 gems: ["emoji_for_jekyll"]
+
+gems: ["jemoji"]
