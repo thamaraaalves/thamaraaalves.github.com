@@ -43,23 +43,18 @@ Anyway, we can't forget the HTML structure with the tags(template, content), bel
 
         <template id="template">
           
-         <%--css style--%>
-         < style >
-        
-            /* to use external style sheets inside shadow dom */
-            @import url('<%= Page.ResolveUrl("~/Content/kendo/kendo.common.min.css") %>');
-         
-          
-         < / style >
-                  
-        <%-- structure DOM elements   --%>
-        <%--  content --%>
-            <div id="Content">
-            
-                <div id="grid" ></div>  
-                <content> </content>
-            </div>
-        
+             <%--css style--%>
+             < style >
+                /* to use external style sheets inside shadow dom */
+                @import url('<%= Page.ResolveUrl("~/Content/kendo/kendo.common.min.css") %>');
+             < / style >
+                      
+            <%-- structure DOM elements   --%>
+            <%--  content --%>
+                <div id="Content">
+                    <div id="grid" ></div>  
+                    <content> </content>
+                </div>
         </template>
     
 **References and some fonts:**   
@@ -67,6 +62,7 @@ Anyway, we can't forget the HTML structure with the tags(template, content), bel
 [W3 Shadow DOM](https://www.w3.org/TR/shadow-dom/)
 
 [HTML5 Rocks](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
+
 
 
 
