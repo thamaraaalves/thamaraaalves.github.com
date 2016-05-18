@@ -18,9 +18,5 @@ Take a look!
 " target="_blank"><img src="http://img.youtube.com/vi/Efo423K-rwo/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-
-**Lyrics:**
-<div id='rg_embed_link_2373655' class='rg_embed_link' data-song-id='2373655'>Read <a href='http://genius.com/Ridsa-pardon-lyrics'>“Pardon” by Ridsa</a> on Genius</div> <script crossorigin src='//genius.com/songs/2373655/embed.js'></script>
-
 Merci!
 Avoir une belle journée :)

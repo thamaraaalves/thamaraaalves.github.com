@@ -17,9 +17,4 @@ So, I've been studying french some weeks ago, bellow is a good music in french. 
 " target="_blank"><img src="http://img.youtube.com/vi/gj7ijv_Si5k/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-**The lyrics:**
-<div id='rg_embed_link_2373202' class='rg_embed_link' data-song-id='2373202'>Read 
-<a href='http://genius.com/Lefa-20-ans-lyrics'>“20 ans” by Lefa</a> on Genius</div> 
-<script crossorigin src='//genius.com/songs/2373202/embed.js'></script>
-
 Bonne journée! 
