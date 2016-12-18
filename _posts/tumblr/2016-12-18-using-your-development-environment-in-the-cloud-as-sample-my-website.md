@@ -18,10 +18,10 @@ When I push on c9 instantaneously update on github
 ![C9](/assets/img/github_master_branch.png){:class="img-responsive"}
 
 Creating post using rake
-![C9](/classets/img/creating_post_rake.png){:class="img-responsive"}
+![C9](/assets/img/creating_post_rake.png){:class="img-responsive"}
 
 Additional information - To compress images I use TinyPNG
-![C9](/classets/img/compress_images_tinypng.png){:class="img-responsive"}
+![C9](/assets/img/compress_images_tinypng.png){:class="img-responsive"}
 **tinypng**: [tinypng]( https://tinypng.com/)  
 
 Below step by step to run Jekyll on c9.cloud:
