@@ -8,7 +8,7 @@ tags: [professional, polymer, webcomponents, frontend]
 
 After long time I am back. This is my second post since I created this personal site.
 
-This is a professional post. I started to learn polymer, webcomponents, to create a reusable module using webform with c# this month.
+This is a technical post. I started to learn polymer, webcomponents, to create a reusable module using webform with c# this month.
 
 Anyway, the question is **"How to install polymer in the project"**?
 
