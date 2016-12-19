@@ -63,5 +63,3 @@ inside the path: Scripts\bower_components\webcomponentsjs>
 
 execute the comand: bower install --save PolymerElements
 
-
-{% include _share-page.html %}

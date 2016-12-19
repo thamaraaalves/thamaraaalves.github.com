@@ -18,5 +18,3 @@ So, I've been studying french some weeks ago, bellow is a good music in french. 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Bonne journée! 
-
-{% include _share-page.html %}
