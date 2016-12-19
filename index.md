@@ -5,7 +5,7 @@ class: home
 
 Hello, guys! 
 
-I’m Thamara, come from Brazil. Living for the second time in Canada. Working as a .Net Developer. 
+I’m Thamara, come from Brazil. Living for the second time in Canada. Working as a full stack web developer. 
 
 From Minas Gerais ❤ , Fortaleza de Minas, Brazil. Curious, paixonate, lover, strong as much to live far from people I love. 
 
