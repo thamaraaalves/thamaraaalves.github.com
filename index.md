@@ -5,13 +5,9 @@ class: home
 
 Hello, guys! 
 
-I’m Thamara, come from Brazil. Living for the second time in Canada.
+I’m Thamara, come from Brazil. Living for the second time in Canada. Working as a .Net Developer. 
 
-Working as a .Net Developer. 
-
-From Minas Gerais ❤ , Fortaleza de Minas, Brazil.
-
-Curious, paixonate, lover, strong as much to live far from people I love to make dreams come true. 
+From Minas Gerais ❤ , Fortaleza de Minas, Brazil. Curious, paixonate, lover, strong as much to live far from people I love to make dreams come true. 
 
 Below one of my favorite place, and picture I've taken.
-![Montreal]({{ site.baseurl }}assets/montreal.jpg "Montreal")
+![Montreal]({{ site.baseurl }}assets/image/montreal.jpg "Montreal")
