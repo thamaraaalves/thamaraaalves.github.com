@@ -13,7 +13,7 @@ my repository is on **thamaraaalves**: [thamaraaalves]((https://github.com/thama
 
 Create an c9 account. I created with github to transfer my repositories easily. 
 {% include image name="c9_root.png" caption=C9 Cloud" %}
-
+![C9 Cloud]({{ site.baseurl }}/assets/posts/img/image.jpg "image title")
 
 When I push on c9 instantaneously update on github 
 ![C9](/assets/img/github_master_branch.png){:class="img-responsive"}
