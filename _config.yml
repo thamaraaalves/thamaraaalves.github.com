@@ -10,6 +10,7 @@ commentlinks: true
 twitter-username: thamaraaalves
 feedburnerurl: http://feeds.feedburner.com/Blog-ThamaraAlves
 google-analytics-tracking-id: UA-51487419-1
+comments: true
 
 source:      .
 destination: ./_site
