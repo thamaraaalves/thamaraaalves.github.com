@@ -5,7 +5,7 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://thamaraaalves.github.com/blog</id>
   <title>Blog - Thamara Alves</title>
-  <icon>http://thamaraaalves.github.com/favicon.ico</icon>
+  <icon>http://thamaraaalves.github.io/favicon.ico</icon>
   <link href="http://thamaraaalves.github.com/index.xml" rel="self" />
   <link href="http://thamaraaalves.github.com/blog" />
   {% for post in site.posts limit:10 %}

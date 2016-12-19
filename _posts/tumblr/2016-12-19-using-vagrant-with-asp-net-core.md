@@ -21,7 +21,7 @@ To make vagrant works you need a virtual machine, I  usually use Virtual Box
 **Gitlab project**: [Gitlab project]( https://gitlab.com/thamaraaalves/aspcorevagrant/)  
 
 
-... download the vagrant file [vagrant file]({{ site.url }}/assets/Vagrantfile.file) directly.
+... download the vagrant file [vagrant file](https://gitlab.com/thamaraaalves/aspcorevagrant/blob/master/Vagrantfile) directly.
 
 After you install vagrant, and virtualbox, create an asp core project, insert the vagrant file you've downloaded on the project root,
 open the prompt, and run the commands:
