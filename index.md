@@ -13,4 +13,5 @@ From Minas Gerais ❤ , Fortaleza de Minas, Brazil.
 
 Curious, paixonate, lover, strong as much to live far from people I love to make dreams come true. 
 
-
+Below one of my favorite place, and picture I've taken.
+![Montreal]({{ site.baseurl }}assets/montreal.jpg "Montreal")
