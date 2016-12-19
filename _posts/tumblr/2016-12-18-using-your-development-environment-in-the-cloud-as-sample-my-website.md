@@ -12,8 +12,8 @@ I created my blog using jekyll (https://jekyllrb.com/) with github pages **githu
 my repository is on **thamaraaalves**: [thamaraaalves]((https://github.com/thamaraaalves/thamaraaalves.github.com.)
 
 Create an c9 account. I created with github to transfer my repositories easily. 
-{% include image name="c9_root.png" caption=C9 Cloud" %}
-![C9 Cloud]({{ site.baseurl }}/assets/posts/img/image.jpg "image title")
+
+![C9 Cloud]({{ site.baseurl }}/assets/posts/img/c9_root.png "image title")
 
 When I push on c9 instantaneously update on github 
 ![C9](/assets/img/github_master_branch.png){:class="img-responsive"}
