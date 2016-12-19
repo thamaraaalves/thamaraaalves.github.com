@@ -12,16 +12,17 @@ I created my blog using jekyll (https://jekyllrb.com/) with github pages **githu
 my repository is on **thamaraaalves**: [thamaraaalves]((https://github.com/thamaraaalves/thamaraaalves.github.com.)
 
 Create an c9 account. I created with github to transfer my repositories easily. 
-![C9 Cloud]({{ site.baseurl }}assets/posts/c9_root.png "image title")
+![C9 Cloud root]({{ site.baseurl }}assets/posts/c9_root.png "C9 Cloud roo")
 
 When I push on c9 instantaneously update on github 
-![C9](/assets/img/github_master_branch.png){:class="img-responsive"}
+![GitHub master branch]({{ site.baseurl }}assets/posts/github_master_branch.png "GitHub master branch")
 
 Creating post using rake
-![C9](/assets/img/creating_post_rake.png){:class="img-responsive"}
+![Creating post]({{ site.baseurl }}assets/posts/creating_post_rake.png "Creating post")
+
 
 Additional information - To compress images I use TinyPNG
-![C9](../assets/img/compress_images_tinypng.png){:class="img-responsive"}
+![Tinypng compress]({{ site.baseurl }}assets/posts/compress_images_tinypng.png "Tinypng compress")
 **tinypng**: [tinypng]( https://tinypng.com/)  
 
 Below step by step to run Jekyll on c9.cloud:
