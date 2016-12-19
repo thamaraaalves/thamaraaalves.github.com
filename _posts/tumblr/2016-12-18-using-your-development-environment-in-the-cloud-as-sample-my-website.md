@@ -59,3 +59,5 @@ $ git add .$ git commit -m "Add new content"$ git push origin master
 
 **Referrences**
 **jekyllrb**: [jekyllrb](https://jekyllrb.com/docs/github-pages/)
+
+{% include _share-page.html %}

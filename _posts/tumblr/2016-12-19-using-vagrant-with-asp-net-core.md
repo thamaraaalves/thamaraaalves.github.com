@@ -37,4 +37,6 @@ Vagrant up will install the windows server 2012, and build up everything, will t
 
 Merci * -- * 
 
+{% include _share-page.html %}
+
 

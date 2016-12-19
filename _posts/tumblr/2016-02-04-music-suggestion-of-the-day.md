@@ -20,3 +20,5 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Merci!
 Avoir une belle journée :)
+
+{% include _share-page.html %}

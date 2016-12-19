@@ -67,3 +67,5 @@ Anyway, we can't forget the HTML structure with the tags(template, content), bel
 
 
 Merci! :)
+
+{% include _share-page.html %}
