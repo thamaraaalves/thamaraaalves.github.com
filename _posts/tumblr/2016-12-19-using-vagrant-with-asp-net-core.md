@@ -7,7 +7,7 @@ tags: [vagrant, webdevelopment, deployment]
 ---
 
 Basically install vagrant 
-**Vagrant **: [Vagrant](https://www.vagrantup.com/downloads.html), but what's vagrant?  
+**Vagrant**: [Vagrant](https://www.vagrantup.com/downloads.html), but what's vagrant?  
 Vagrant allow you to create and configure lightweight, reproducible, and portable development environments.
 
 To make vagrant works you need a virtual machine, I  usually use Virtual Box 
