@@ -12,7 +12,7 @@ I created my blog using jekyll (https://jekyllrb.com/) with github pages **githu
 my repository is on **thamaraaalves**: [thamaraaalves]((https://github.com/thamaraaalves/thamaraaalves.github.com.)
 
 Create an c9 account. I created with github to transfer my repositories easily. 
-![C9 Cloud root]({{ site.baseurl }}assets/posts/c9_root.png "C9 Cloud roo")
+![C9 Cloud root]({{ site.baseurl }}assets/posts/c9_root.png "C9 Cloud root")
 
 When I push on c9 instantaneously update on github 
 ![GitHub master branch]({{ site.baseurl }}assets/posts/github_master_branch.png "GitHub master branch")
