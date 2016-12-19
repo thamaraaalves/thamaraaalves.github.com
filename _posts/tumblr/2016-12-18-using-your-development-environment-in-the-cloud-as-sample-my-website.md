@@ -21,7 +21,7 @@ Creating post using rake
 ![C9](/assets/img/creating_post_rake.png){:class="img-responsive"}
 
 Additional information - To compress images I use TinyPNG
-![C9](/assets/img/compress_images_tinypng.png){:class="img-responsive"}
+![C9](../assets/img/compress_images_tinypng.png){:class="img-responsive"}
 **tinypng**: [tinypng]( https://tinypng.com/)  
 
 Below step by step to run Jekyll on c9.cloud:
