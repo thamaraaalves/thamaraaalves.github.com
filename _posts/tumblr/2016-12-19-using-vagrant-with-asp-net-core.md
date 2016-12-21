@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Using vagrant with Asp .Net Core"
-description: ""
-category: 
-tags: [vagrant, webdevelopment, deployment]
+description: "Using vagrant with asp net core, deployment, portable development environments."
+category: .net, vagrant, asp .net core
+tags: [vagrant, webdevelopment, deployment,.net]
 ---
 
 Basically install vagrant 

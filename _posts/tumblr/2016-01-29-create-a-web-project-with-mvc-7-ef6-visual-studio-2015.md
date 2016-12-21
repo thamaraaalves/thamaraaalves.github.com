@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Create a web project with MVC 7, EF6, Visual Studio 2015."
-description: ""
-category: 
+title: "Create an asp .net project with MVC 7, EF6, Visual Studio 2015."
+description: "Create an asp .net project with MVC 7, Entity Framework 6, and Visual Studio 2015."
+category: .net, asp .net
 tags: [MVC7, EF6, Visual Studio 2015]
 ---
 

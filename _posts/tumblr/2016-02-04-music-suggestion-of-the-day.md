@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Music suggestion of the day"
-description: ""
-category: 
-tags: []
+title: "Learning french listening good french music - 2"
+description: "Learning french listen a good music "
+category: music, french
+tags: [french, music, quebec]
 ---
 
 As these days, here is another good one french music... Cause, I like to discovery new musics everyday.

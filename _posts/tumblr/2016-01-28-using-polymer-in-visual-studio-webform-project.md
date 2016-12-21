@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Installing polymer in a WebForm project"
-description: ""
-category: 
+description: Installing polymer webcomponents in a WebForm project"
+category: .net, polymer, frontend
 tags: [professional, polymer, webcomponents, frontend]
 ---
 

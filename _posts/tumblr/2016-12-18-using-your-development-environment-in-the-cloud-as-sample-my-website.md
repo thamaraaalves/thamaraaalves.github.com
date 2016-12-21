@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Using your development environment, in the cloud as sample my website "
-description: ""
-category: 
-tags: []
+description: "Using your development environment, in the cloud as sample my website with c9 "
+category: portable environment,
+tags: [c9, cloud, webdevelopment, fullstack, ruby on rails, jekyll, compress image, performance]
 ---
 
 Since I discovered **c9**: [c9](https://c9.io/), I am using it as my development environment to my blog.

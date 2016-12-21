@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Using Selector Gadget"
-description: ""
-category: 
-tags: []
+description: "Using selector gadget to catch the selectors - huge hint"
+category: front end
+tags: [front end]
 ---
 
 

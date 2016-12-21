@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "French music suggestion"
-description: ""
-category: 
-tags: []
+title: "Learning french listening good french music - 1"
+description: "Learning french listen a good music"
+category: french, music, quebec
+tags: [french, music, quebec, learning french]
 ---
 
 I love music, really may consider me a 'person addicted to music' 
