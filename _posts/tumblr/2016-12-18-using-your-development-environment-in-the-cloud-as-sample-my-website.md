@@ -9,7 +9,7 @@ tags: [c9, cloud, webdevelopment, fullstack, ruby on rails, jekyll, compress ima
 Since I discovered **c9**: [c9](https://c9.io/), I am using it as my development environment to my blog.
 
 I created my blog using jekyll (https://jekyllrb.com/) with github pages **github pages**: [github pages](https://pages.github.com/), and
-my repository is on **thamaraaalves**: [thamaraaalves]((https://github.com/thamaraaalves/thamaraaalves.github.com.)
+my repository is on **thamaraaalves**: [thamaraaalves](https://github.com/thamaraaalves/thamaraaalves.github.com.)
 
 Create an c9 account. I created with github to transfer my repositories easily. 
 ![C9 Cloud root]({{ site.baseurl }}assets/posts/c9_root.png "C9 Cloud root")
