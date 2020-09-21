@@ -2,7 +2,7 @@
 layout: page
 class: home
 title: "Thamara Silva Alves"
-description: "This is my personal website, I am Thamara Silva Alves, brazilian, from state of Minas Gerais, web developer, who love discover new things, and challenges. "
+description: "This is my personal website, I am Thamara Silva Alves, brazilian, from state of Minas Gerais, web developer, who loves discover new things, and challenges. "
 ---
 
 Hello, guys! 
