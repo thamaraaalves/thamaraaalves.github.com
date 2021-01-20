@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <title>Simple way to create and use Shadow DOM &mdash; Thamara Alves</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="" />
+
+  <!-- Facebook -->
+  <meta property="og:title" content="Simple way to create and use Shadow DOM &mdash; Thamara Alves"/>
+  <meta property="og:site_name" content="Thamara Silva Alves"/>
+  <meta property="og:url" content="http://thamaraaalves.com/simple-way-to-create-and-use-shadow-dom/"/>
+  <meta property="og:image" content="http://thamaraaalves.com/assets/img/fb-share.jpg"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content=""/>
+
+  <!-- Twitter Analytics -->
+  <meta property="twitter:account_id" content="1510104138" />
+
+
+  <link rel="shortcut icon" type="image/x-icon href="/favicon.ico"  /> 
+ 
+
+  <!-- Font -->
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+  <!-- Feed -->
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/Blog-ThamaraAlves">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="/assets/css/main.css?v=2" type="text/css" />
+
+  <!-- jQuery -->
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+
+  <!-- Syntax Highlight -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+  
+  <script id="dsq-count-scr" src="//thamara-alves.disqus.com/count.js" async></script>
+
+  <!-- Main -->
+  <script src='/assets/js/main.js'></script>
+
+  <!-- Modernizr adding css classes -->
+  <script src='/assets/js/modernizr_css_classes.js'></script>
+
+</head>
+<body onload="prettyPrint()">
+
+
+  <div id="masthead">
+  
+  <br />
+
+  <h1 class="sitetitle">
+    <a href="/" class="sitetitle">Thamara Alves</a>
+  </h1>
+  <p class="description">Full stack web developer</p>
+
+  <ul id="pagenav">
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/projects">What I've been doing</a></li>
+    <li><a href="/About">About me</a></li>
+  </ul>
+
+</div> <!--/masthead-->
+
+
+  <div class="container">
+
+    <div id="content" class="post">
+
+    
+    <h1 class="posttitle">Simple way to create and use Shadow DOM</h1>
+    <p class="date articledate">02/03/2016</p>
+    
+
+    <p><strong>Reporting working life</strong></p>
+
+<p>I’ve been studying, learning and working as a web developer. Yeahh, at the same time. This experience is amazing, you learn things to put in a real project.</p>
+
+<p>I met shadow DOM when I was studying web components. Bellow, is a simple code to start creating a simple shadow DOM content (in this case ready document could be call more than once). 
+Take a look! 
+Later, I’m gonna explain with details, and with better documentation.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var numberHosts = $('#host').data('numberHosts');
+
+//1. create the shadow dom of the container
+var host = document.querySelectorAll('#host'); 
+
+if (host[numberHosts]) {
+    var root = host[numberHosts].createShadowRoot();               
+    var template = document.querySelectorAll('#template');
+    var clone = document.importNode(template[numberHosts].content, true);
+    kendo.ui.progress($(root.getElementById('Content')) , true);
+    root.appendChild(clone);
+    //2. create variables
+    var DeleteButtonID= $(root.getElementById('DeleteButton'));  
+    
+ if ($('#host').data('numberHosts')==0 || $('#host').data('numberHosts')&gt;0) 
+    $('#host').data('numberHosts', $('#host').data('numberHosts')+1);
+}
+</code></pre></div></div>
+
+<p>One important thing is when you create a shadow DOM, your ROOT will be encapsulate, to customize, for example if you are using KENDO UI framework, 
+you have to import the stylesheet putting the code bellow inside the tags &lt; style &gt; &lt; /style &gt;:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/* to use external style sheets inside shadow dom */
+@import url('&lt;%= Page.ResolveUrl("~/Content/kendo/kendo.common.min.css") %&gt;')
+</code></pre></div></div>
+
+<p>Anyway, we can’t forget the HTML structure with the tags(template, content), below a simple code:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;template id="template"&gt;
+      
+         &lt;%--css style--%&gt;
+         &lt; style &gt;
+            /* to use external style sheets inside shadow dom */
+            @import url('&lt;%= Page.ResolveUrl("~/Content/kendo/kendo.common.min.css") %&gt;');
+         &lt; / style &gt;
+                  
+        &lt;%-- structure DOM elements   --%&gt;
+        &lt;%--  content --%&gt;
+            &lt;div id="Content"&gt;
+                &lt;div id="grid" &gt;&lt;/div&gt;  
+                &lt;content&gt; &lt;/content&gt;
+            &lt;/div&gt;
+    &lt;/template&gt;
+</code></pre></div></div>
+
+<p><strong>References and some fonts:</strong></p>
+
+<p><a href="https://www.w3.org/TR/shadow-dom/">W3 Shadow DOM</a></p>
+
+<p><a href="http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/">HTML5 Rocks</a></p>
+
+<p>Merci! :)</p>
+
+
+    <a rel="author" style="visibility: hidden;" href="https://plus.google.com/117843401437095717191">Thamara Alves</a>
+
+    
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = "http://thamaraaalves.github.io/simple-way-to-create-and-use-shadow-dom/";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/simple-way-to-create-and-use-shadow-dom"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//thamara-alves.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+    </div> <!-- /content -->
+  </div> <!-- /container -->
+
+<ul class="social-links">
+  <li><a class="social-twitter" href="http://twitter.com/thamaraaalves">Twitter</a></li>
+  <li><a class="social-github" href="https://github.com/thamaraaalves">Github</a></li>
+  <li><a class="social-rss" href="http://feeds.feedburner.com/Blog-ThamaraAlves">RSS Feed</a></li>
+</ul>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-51487419-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- jQuery Infinite Scrolling -->
+<script type='text/javascript' src='/assets/js/jquery.infinitescroll.min.js'></script>
+<script>
+// infinitescroll() is called on the element that surrounds
+// the items you will be loading more of
+$('ul#posts').infinitescroll({
+  navSelector   : "p.pagination",
+          // selector for the paged navigation (it will be hidden)
+  nextSelector  : "p.pagination a.older",
+          // selector for the NEXT link (to page 2)
+  itemSelector  : "#content ul#posts li.post"
+          // selector for all items you'll retrieve
+});
+</script>
+
+<script type='text/javascript' src='/assets/js/fokus.min.js'></script>
+
+</body>
+</html>

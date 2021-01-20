@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <title>Using vagrant with Asp .Net Core &mdash; Thamara Alves</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Using vagrant with asp net core, deployment, portable development environments." />
+
+  <!-- Facebook -->
+  <meta property="og:title" content="Using vagrant with Asp .Net Core &mdash; Thamara Alves"/>
+  <meta property="og:site_name" content="Thamara Silva Alves"/>
+  <meta property="og:url" content="http://thamaraaalves.com/using-vagrant-with-asp-net-core/"/>
+  <meta property="og:image" content="http://thamaraaalves.com/assets/img/fb-share.jpg"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Using vagrant with asp net core, deployment, portable development environments."/>
+
+  <!-- Twitter Analytics -->
+  <meta property="twitter:account_id" content="1510104138" />
+
+
+  <link rel="shortcut icon" type="image/x-icon href="/favicon.ico"  /> 
+ 
+
+  <!-- Font -->
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+  <!-- Feed -->
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/Blog-ThamaraAlves">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="/assets/css/main.css?v=2" type="text/css" />
+
+  <!-- jQuery -->
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+
+  <!-- Syntax Highlight -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+  
+  <script id="dsq-count-scr" src="//thamara-alves.disqus.com/count.js" async></script>
+
+  <!-- Main -->
+  <script src='/assets/js/main.js'></script>
+
+  <!-- Modernizr adding css classes -->
+  <script src='/assets/js/modernizr_css_classes.js'></script>
+
+</head>
+<body onload="prettyPrint()">
+
+
+  <div id="masthead">
+  
+  <br />
+
+  <h1 class="sitetitle">
+    <a href="/" class="sitetitle">Thamara Alves</a>
+  </h1>
+  <p class="description">Full stack web developer</p>
+
+  <ul id="pagenav">
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/projects">What I've been doing</a></li>
+    <li><a href="/About">About me</a></li>
+  </ul>
+
+</div> <!--/masthead-->
+
+
+  <div class="container">
+
+    <div id="content" class="post">
+
+    
+    <h1 class="posttitle">Using vagrant with Asp .Net Core</h1>
+    <p class="date articledate">12/19/2016</p>
+    
+
+    <p>Basically install vagrant 
+<a href="https://www.vagrantup.com/downloads.html">Vagrant</a>, but what’s vagrant?<br />
+Vagrant allow you to create and configure lightweight, reproducible, and portable development environments.</p>
+
+<p>To make vagrant works you need a virtual machine, I  usually use Virtual Box 
+ <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a></p>
+
+<p><strong>Create an ASP.NET core project in Visual Studio</strong>
+<img src="/assets/posts/create_project.png" alt="Asp net core project" title="Asp net core project" /></p>
+
+<p><strong>Or just clone or download my project from gitlab</strong>
+<strong>Gitlab project</strong>: <a href="https://gitlab.com/thamaraaalves/aspcorevagrant/">Gitlab project</a></p>
+
+<p>… download the vagrant file <a href="https://gitlab.com/thamaraaalves/aspcorevagrant/blob/master/Vagrantfile">vagrant file</a> directly.</p>
+
+<p>After you install vagrant, and virtualbox, create an asp core project, insert the vagrant file you’ve downloaded on the project root,
+open the prompt, and run the commands:</p>
+<ul>
+  <li>
+    <p>vagrant plugin install vagrant-hostmanager
+<strong>You should see something like this:</strong>
+<img src="/assets/posts/vagrant_host_manager.png" alt="Asp net core project" title="Asp net core project" /></p>
+  </li>
+  <li>
+    <p>vagrant up
+<strong>You should see something like this:</strong>
+<img src="/assets/posts/vagrant_up.png" alt="Asp net core project" title="Asp net core project" /></p>
+  </li>
+</ul>
+
+<p>Vagrant up will install the windows server 2012, and build up everything, will take time, be patience, wait, and enjoy.</p>
+
+<p>Merci * – *</p>
+
+
+
+    <a rel="author" style="visibility: hidden;" href="https://plus.google.com/117843401437095717191">Thamara Alves</a>
+
+    
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = "http://thamaraaalves.github.io/using-vagrant-with-asp-net-core/";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/using-vagrant-with-asp-net-core"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//thamara-alves.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+    </div> <!-- /content -->
+  </div> <!-- /container -->
+
+<ul class="social-links">
+  <li><a class="social-twitter" href="http://twitter.com/thamaraaalves">Twitter</a></li>
+  <li><a class="social-github" href="https://github.com/thamaraaalves">Github</a></li>
+  <li><a class="social-rss" href="http://feeds.feedburner.com/Blog-ThamaraAlves">RSS Feed</a></li>
+</ul>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-51487419-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- jQuery Infinite Scrolling -->
+<script type='text/javascript' src='/assets/js/jquery.infinitescroll.min.js'></script>
+<script>
+// infinitescroll() is called on the element that surrounds
+// the items you will be loading more of
+$('ul#posts').infinitescroll({
+  navSelector   : "p.pagination",
+          // selector for the paged navigation (it will be hidden)
+  nextSelector  : "p.pagination a.older",
+          // selector for the NEXT link (to page 2)
+  itemSelector  : "#content ul#posts li.post"
+          // selector for all items you'll retrieve
+});
+</script>
+
+<script type='text/javascript' src='/assets/js/fokus.min.js'></script>
+
+</body>
+</html>

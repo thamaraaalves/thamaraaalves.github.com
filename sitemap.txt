@@ -1,0 +1,17 @@
+
+/blog/
+/About/
+/
+/feed/index.xml
+/sitemap.txt
+
+/publishing-my-app-on-google-play-store-for-the-fist-time/
+/using-vagrant-with-asp-net-core/
+/using-your-development-environment-in-the-cloud-as-sample-my-website/
+/music-suggestion-of-the-day/
+/simple-way-to-create-and-use-shadow-dom/
+/french-music-suggestion/
+/using-selector-gadget/
+/create-a-web-project-with-mvc-7-ef6-visual-studio-2015/
+/using-polymer-in-visual-studio-webform-project/
+/hello-world/

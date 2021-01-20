@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <title>Installing polymer in a WebForm project &mdash; Thamara Alves</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Installing polymer webcomponents in a WebForm project"" />
+
+  <!-- Facebook -->
+  <meta property="og:title" content="Installing polymer in a WebForm project &mdash; Thamara Alves"/>
+  <meta property="og:site_name" content="Thamara Silva Alves"/>
+  <meta property="og:url" content="http://thamaraaalves.com/using-polymer-in-visual-studio-webform-project/"/>
+  <meta property="og:image" content="http://thamaraaalves.com/assets/img/fb-share.jpg"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Installing polymer webcomponents in a WebForm project""/>
+
+  <!-- Twitter Analytics -->
+  <meta property="twitter:account_id" content="1510104138" />
+
+
+  <link rel="shortcut icon" type="image/x-icon href="/favicon.ico"  /> 
+ 
+
+  <!-- Font -->
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+  <!-- Feed -->
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/Blog-ThamaraAlves">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="/assets/css/main.css?v=2" type="text/css" />
+
+  <!-- jQuery -->
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+
+  <!-- Syntax Highlight -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+  
+  <script id="dsq-count-scr" src="//thamara-alves.disqus.com/count.js" async></script>
+
+  <!-- Main -->
+  <script src='/assets/js/main.js'></script>
+
+  <!-- Modernizr adding css classes -->
+  <script src='/assets/js/modernizr_css_classes.js'></script>
+
+</head>
+<body onload="prettyPrint()">
+
+
+  <div id="masthead">
+  
+  <br />
+
+  <h1 class="sitetitle">
+    <a href="/" class="sitetitle">Thamara Alves</a>
+  </h1>
+  <p class="description">Full stack web developer</p>
+
+  <ul id="pagenav">
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/projects">What I've been doing</a></li>
+    <li><a href="/About">About me</a></li>
+  </ul>
+
+</div> <!--/masthead-->
+
+
+  <div class="container">
+
+    <div id="content" class="post">
+
+    
+    <h1 class="posttitle">Installing polymer in a WebForm project</h1>
+    <p class="date articledate">01/28/2016</p>
+    
+
+    <p>After long time I am back. This is my second post since I created this personal site.</p>
+
+<p>This is a technical post. I started to learn polymer, webcomponents, to create a reusable module using webform with c# this month.</p>
+
+<p>Anyway, the question is <strong>“How to install polymer in the project”</strong>?</p>
+
+<p>First of all, make sure you have nodejs, and git installed in your computer. If not, install them:</p>
+
+<p><strong>Nodejs</strong>: <a href="https://nodejs.org/en/">Nodejs</a><br />
+<strong>Github</strong>: <a href="https://desktop.github.com/">Github</a></p>
+
+<p><strong>Step-by-step:</strong></p>
+
+<p>1- create a webform/mvc project</p>
+
+<p>2- in node js (with bower, polymer, and git installed)</p>
+
+<p>3- inside the project folder execute the comand: bower init &gt; after set the settings</p>
+
+<p>4- after execute the command: bower install Polymer/polymer –save</p>
+
+<p><strong>Others comands options:</strong></p>
+
+<p>comand: bower info polymer</p>
+
+<p>comand: bower info polymer/polymer</p>
+
+<p>If you have some trouble with <strong>git command</strong> in node.js prompt, try this below:</p>
+
+<p>execute the comand: set PATH=%PATH%;C:\Users\Thamara Alves\AppData\Local\Programs\Git\bin</p>
+
+<p>but, change the <Name of="" the="" computer=""></Name></p>
+
+<p>set PATH=%PATH%;<git path="">;</git></p>
+
+<p>So, like this:</p>
+
+<p>set PATH=%PATH%;C:\Program Files\Git\bin;</p>
+
+<p>Or this: (Notice the (x86) )</p>
+
+<p>set PATH=%PATH%;C:\Program Files (x86)\Git\bin;</p>
+
+<p><strong>Comands to install new elements:</strong></p>
+
+<p>inside the path: Scripts\bower_components\webcomponentsjs&gt;</p>
+
+<p>execute the comand: bower install –save PolymerElements</p>
+
+
+
+    <a rel="author" style="visibility: hidden;" href="https://plus.google.com/117843401437095717191">Thamara Alves</a>
+
+    
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = "http://thamaraaalves.github.io/using-polymer-in-visual-studio-webform-project/";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/using-polymer-in-visual-studio-webform-project"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//thamara-alves.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+    </div> <!-- /content -->
+  </div> <!-- /container -->
+
+<ul class="social-links">
+  <li><a class="social-twitter" href="http://twitter.com/thamaraaalves">Twitter</a></li>
+  <li><a class="social-github" href="https://github.com/thamaraaalves">Github</a></li>
+  <li><a class="social-rss" href="http://feeds.feedburner.com/Blog-ThamaraAlves">RSS Feed</a></li>
+</ul>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-51487419-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- jQuery Infinite Scrolling -->
+<script type='text/javascript' src='/assets/js/jquery.infinitescroll.min.js'></script>
+<script>
+// infinitescroll() is called on the element that surrounds
+// the items you will be loading more of
+$('ul#posts').infinitescroll({
+  navSelector   : "p.pagination",
+          // selector for the paged navigation (it will be hidden)
+  nextSelector  : "p.pagination a.older",
+          // selector for the NEXT link (to page 2)
+  itemSelector  : "#content ul#posts li.post"
+          // selector for all items you'll retrieve
+});
+</script>
+
+<script type='text/javascript' src='/assets/js/fokus.min.js'></script>
+
+</body>
+</html>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://thamaraaalves.github.com/blog</id>
+  <title>Blog - Thamara Alves</title>
+  <icon>http://thamaraaalves.github.io/favicon.ico</icon>
+  <link href="http://thamaraaalves.github.com/index.xml" rel="self" />
+  <link href="http://thamaraaalves.github.com/blog" />
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/publishing-my-app-on-google-play-store-for-the-fist-time</id>
+    <title>Publishing my app on Google Play Store for the fist time</title>
+    <updated>2017-01-02T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/publishing-my-app-on-google-play-store-for-the-fist-time/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt;Happiness after achieving a goal, that was learning how to launch/publish an app built with ionic on play.google.com.&lt;/p&gt;
+
+&lt;p&gt;Below a screen showing my success:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/first_app_publishing.png&quot; alt=&quot;Google Play Store&quot; title=&quot;Google Play Store&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reminder it was just the beginning, a beta test. I am going to improve and launch a real and interesting app. (*Promise)&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/using-vagrant-with-asp-net-core</id>
+    <title>Using vagrant with Asp .Net Core</title>
+    <updated>2016-12-19T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/using-vagrant-with-asp-net-core/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt;Basically install vagrant 
+&lt;a href=&quot;https://www.vagrantup.com/downloads.html&quot;&gt;Vagrant&lt;/a&gt;, but what’s vagrant?&lt;br /&gt;
+Vagrant allow you to create and configure lightweight, reproducible, and portable development environments.&lt;/p&gt;
+
+&lt;p&gt;To make vagrant works you need a virtual machine, I  usually use Virtual Box 
+ &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot;&gt;VirtualBox&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Create an ASP.NET core project in Visual Studio&lt;/strong&gt;
+&lt;img src=&quot;/assets/posts/create_project.png&quot; alt=&quot;Asp net core project&quot; title=&quot;Asp net core project&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Or just clone or download my project from gitlab&lt;/strong&gt;
+&lt;strong&gt;Gitlab project&lt;/strong&gt;: &lt;a href=&quot;https://gitlab.com/thamaraaalves/aspcorevagrant/&quot;&gt;Gitlab project&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;… download the vagrant file &lt;a href=&quot;https://gitlab.com/thamaraaalves/aspcorevagrant/blob/master/Vagrantfile&quot;&gt;vagrant file&lt;/a&gt; directly.&lt;/p&gt;
+
+&lt;p&gt;After you install vagrant, and virtualbox, create an asp core project, insert the vagrant file you’ve downloaded on the project root,
+open the prompt, and run the commands:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;vagrant plugin install vagrant-hostmanager
+&lt;strong&gt;You should see something like this:&lt;/strong&gt;
+&lt;img src=&quot;/assets/posts/vagrant_host_manager.png&quot; alt=&quot;Asp net core project&quot; title=&quot;Asp net core project&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;vagrant up
+&lt;strong&gt;You should see something like this:&lt;/strong&gt;
+&lt;img src=&quot;/assets/posts/vagrant_up.png&quot; alt=&quot;Asp net core project&quot; title=&quot;Asp net core project&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vagrant up will install the windows server 2012, and build up everything, will take time, be patience, wait, and enjoy.&lt;/p&gt;
+
+&lt;p&gt;Merci * – *&lt;/p&gt;
+
+
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/using-your-development-environment-in-the-cloud-as-sample-my-website</id>
+    <title>Using your development environment, in the cloud as sample my website </title>
+    <updated>2016-12-18T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/using-your-development-environment-in-the-cloud-as-sample-my-website/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt;Since I discovered &lt;strong&gt;c9&lt;/strong&gt;: &lt;a href=&quot;https://c9.io/&quot;&gt;c9&lt;/a&gt;, I am using it as my development environment to my blog.&lt;/p&gt;
+
+&lt;p&gt;I created my blog using jekyll (https://jekyllrb.com/) with github pages &lt;strong&gt;github pages&lt;/strong&gt;: &lt;a href=&quot;https://pages.github.com/&quot;&gt;github pages&lt;/a&gt;, and
+my repository is on &lt;strong&gt;thamaraaalves&lt;/strong&gt;: &lt;a href=&quot;https://github.com/thamaraaalves/thamaraaalves.github.com.&quot;&gt;thamaraaalves&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Create an c9 account. I created with github to transfer my repositories easily. 
+&lt;img src=&quot;/assets/posts/c9_root.png&quot; alt=&quot;C9 Cloud root&quot; title=&quot;C9 Cloud root&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When I push on c9 instantaneously update on github 
+&lt;img src=&quot;/assets/posts/github_master_branch.png&quot; alt=&quot;GitHub master branch&quot; title=&quot;GitHub master branch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Creating post using rake
+&lt;img src=&quot;/assets/posts/creating_post_rake.png&quot; alt=&quot;Creating post&quot; title=&quot;Creating post&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Additional information - To compress images I use TinyPNG
+&lt;img src=&quot;/assets/posts/compress_images_tinypng.png&quot; alt=&quot;Tinypng compress&quot; title=&quot;Tinypng compress&quot; /&gt;
+&lt;strong&gt;tinypng&lt;/strong&gt;: &lt;a href=&quot;https://tinypng.com/&quot;&gt;tinypng&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Below step by step to run Jekyll on c9.cloud:&lt;/p&gt;
+
+&lt;p&gt;Commands:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;gem install jekyll&lt;/li&gt;
+  &lt;li&gt;jekyll new my-awesome-site&lt;/li&gt;
+  &lt;li&gt;cd my-awesome-site&lt;/li&gt;
+  &lt;li&gt;jekyll serve –host $IP –port $PORT –baseurl ‘’&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;DOING UPDATES AND POSTING:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Create a Post&lt;/strong&gt;
+Create posts easily via rake task:
+$ rake post title=”Hello World”&lt;/p&gt;
+
+&lt;p&gt;The rake task automatically creates a file with properly formatted filename and YAML Front Matter. Make sure to specify your own title. By default, the date is the current date.
+The rake task will never overwrite existing posts unless you tell it to.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Create a Page&lt;/strong&gt;
+Create pages easily via rake task:
+$ rake page name=”about.md”
+Create a nested page:
+$ rake page name=”pages/about.md”
+Create a page with a “pretty” path:
+$ rake page name=”pages/about”# this will create the file: ./pages/about/index.html
+The rake task automatically creates a page file with properly formatted filename and YAML Front Matter as well as includes the Jekyll Bootstrap “setup” file.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Publish&lt;/strong&gt;
+After you’ve added posts or made changes to your theme or other files, simply commit them to your git repo and push the commits up to GitHub.
+$ git add .$ git commit -m “Add new content”$ git push origin master&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Referrences&lt;/strong&gt;
+&lt;strong&gt;jekyllrb&lt;/strong&gt;: &lt;a href=&quot;https://jekyllrb.com/docs/github-pages/&quot;&gt;jekyllrb&lt;/a&gt;&lt;/p&gt;
+
+
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/music-suggestion-of-the-day</id>
+    <title>Learning french listening good french music - 2</title>
+    <updated>2016-02-04T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/music-suggestion-of-the-day/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt;As these days, here is another good one french music… Cause, I like to discovery new musics everyday.&lt;/p&gt;
+
+&lt;p&gt;I didn’t know this singer, also the music, I just liked, sounds amazing. :)&lt;/p&gt;
+
+&lt;p&gt;Take a look!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To listen:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=Efo423K-rwo &quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/Efo423K-rwo/0.jpg&quot; alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Merci!
+Avoir une belle journée :)&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/simple-way-to-create-and-use-shadow-dom</id>
+    <title>Simple way to create and use Shadow DOM</title>
+    <updated>2016-02-03T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/simple-way-to-create-and-use-shadow-dom/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt;&lt;strong&gt;Reporting working life&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been studying, learning and working as a web developer. Yeahh, at the same time. This experience is amazing, you learn things to put in a real project.&lt;/p&gt;
+
+&lt;p&gt;I met shadow DOM when I was studying web components. Bellow, is a simple code to start creating a simple shadow DOM content (in this case ready document could be call more than once). 
+Take a look! 
+Later, I’m gonna explain with details, and with better documentation.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var numberHosts = $('#host').data('numberHosts');
+
+//1. create the shadow dom of the container
+var host = document.querySelectorAll('#host'); 
+
+if (host[numberHosts]) {
+    var root = host[numberHosts].createShadowRoot();               
+    var template = document.querySelectorAll('#template');
+    var clone = document.importNode(template[numberHosts].content, true);
+    kendo.ui.progress($(root.getElementById('Content')) , true);
+    root.appendChild(clone);
+    //2. create variables
+    var DeleteButtonID= $(root.getElementById('DeleteButton'));  
+    
+ if ($('#host').data('numberHosts')==0 || $('#host').data('numberHosts')&amp;gt;0) 
+    $('#host').data('numberHosts', $('#host').data('numberHosts')+1);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;One important thing is when you create a shadow DOM, your ROOT will be encapsulate, to customize, for example if you are using KENDO UI framework, 
+you have to import the stylesheet putting the code bellow inside the tags &amp;lt; style &amp;gt; &amp;lt; /style &amp;gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* to use external style sheets inside shadow dom */
+@import url('&amp;lt;%= Page.ResolveUrl(&quot;~/Content/kendo/kendo.common.min.css&quot;) %&amp;gt;')
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Anyway, we can’t forget the HTML structure with the tags(template, content), below a simple code:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &amp;lt;template id=&quot;template&quot;&amp;gt;
+      
+         &amp;lt;%--css style--%&amp;gt;
+         &amp;lt; style &amp;gt;
+            /* to use external style sheets inside shadow dom */
+            @import url('&amp;lt;%= Page.ResolveUrl(&quot;~/Content/kendo/kendo.common.min.css&quot;) %&amp;gt;');
+         &amp;lt; / style &amp;gt;
+                  
+        &amp;lt;%-- structure DOM elements   --%&amp;gt;
+        &amp;lt;%--  content --%&amp;gt;
+            &amp;lt;div id=&quot;Content&quot;&amp;gt;
+                &amp;lt;div id=&quot;grid&quot; &amp;gt;&amp;lt;/div&amp;gt;  
+                &amp;lt;content&amp;gt; &amp;lt;/content&amp;gt;
+            &amp;lt;/div&amp;gt;
+    &amp;lt;/template&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;References and some fonts:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/shadow-dom/&quot;&gt;W3 Shadow DOM&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/&quot;&gt;HTML5 Rocks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Merci! :)&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/french-music-suggestion</id>
+    <title>Learning french listening good french music - 1</title>
+    <updated>2016-02-03T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/french-music-suggestion/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt;I love music, really may consider me a ‘person addicted to music’&lt;/p&gt;
+
+&lt;p&gt;So, I’ve been studying french some weeks ago, bellow is a good music in french. Today, I am listening and repeating this music since I started to work 
+&lt;a href=&quot;https://listenonrepeat.com/?v=gj7ijv_Si5k#Lefa_-_20_ans_(Clip_officiel)&quot;&gt;OnRepeat&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To listen:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=gj7ijv_Si5k &quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/gj7ijv_Si5k/0.jpg&quot; alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bonne journée!&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/using-selector-gadget</id>
+    <title>Using Selector Gadget</title>
+    <updated>2016-02-01T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/using-selector-gadget/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt;SelectorGadget is an open source bookmarklet that makes CSS selector generation and discovery on complicated sites a breeze. Just drag the bookmarklet to your bookmark bar, 
+then go to any page and press it. A box will open in the bottom right of the website. Click on a page element that you would like your selector to match (it will turn green). 
+SelectorGadget will then generate a minimal CSS selector for that element, and will highlight (yellow) everything that is matched by the selector. Now click on a highlighted element 
+to remove it from the selector (red), or click on an unhighlighted element to add it to the selector. Through this process of selection and rejection, SelectorGadget helps you come up with 
+the perfect CSS selector for your needs.
+SelectorGadget has been tested to work in current versions of Firefox and Safari. At the moment it is quite buggy in IE7.
+How could I use this?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;for webpage scraping with tools such as Hpricot and Beautiful Soup&lt;/li&gt;
+  &lt;li&gt;to generate jQuery selectors for dynamic sites&lt;/li&gt;
+  &lt;li&gt;as a tool to examine JavaScript-generated DOM structures&lt;/li&gt;
+  &lt;li&gt;as a tool to help you style only particular elements on the page with your stylesheets&lt;/li&gt;
+  &lt;li&gt;for selenium testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Source&lt;/strong&gt;: &lt;a href=&quot;https://selectorgadget.com/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/create-a-web-project-with-mvc-7-ef6-visual-studio-2015</id>
+    <title>Create an asp .net project with MVC 7, EF6, Visual Studio 2015.</title>
+    <updated>2016-01-29T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/create-a-web-project-with-mvc-7-ef6-visual-studio-2015/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt;I created a tutorial video in youtube explainning how to create a project using MVC 7, Entity framework 6, with Visual Studio 2015.&lt;/p&gt;
+
+&lt;p&gt;So, take a look, below is the video.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(Unfortunately, there is no audio, and I didn’t finish the edition. Pardon me! =/)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=I69IAkVq2y4 &quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/I69IAkVq2y4/0.jpg&quot; alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Merci! :)&lt;/p&gt;
+
+
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/using-polymer-in-visual-studio-webform-project</id>
+    <title>Installing polymer in a WebForm project</title>
+    <updated>2016-01-28T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/using-polymer-in-visual-studio-webform-project/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt;After long time I am back. This is my second post since I created this personal site.&lt;/p&gt;
+
+&lt;p&gt;This is a technical post. I started to learn polymer, webcomponents, to create a reusable module using webform with c# this month.&lt;/p&gt;
+
+&lt;p&gt;Anyway, the question is &lt;strong&gt;“How to install polymer in the project”&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;First of all, make sure you have nodejs, and git installed in your computer. If not, install them:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nodejs&lt;/strong&gt;: &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Nodejs&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Github&lt;/strong&gt;: &lt;a href=&quot;https://desktop.github.com/&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step-by-step:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1- create a webform/mvc project&lt;/p&gt;
+
+&lt;p&gt;2- in node js (with bower, polymer, and git installed)&lt;/p&gt;
+
+&lt;p&gt;3- inside the project folder execute the comand: bower init &amp;gt; after set the settings&lt;/p&gt;
+
+&lt;p&gt;4- after execute the command: bower install Polymer/polymer –save&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Others comands options:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;comand: bower info polymer&lt;/p&gt;
+
+&lt;p&gt;comand: bower info polymer/polymer&lt;/p&gt;
+
+&lt;p&gt;If you have some trouble with &lt;strong&gt;git command&lt;/strong&gt; in node.js prompt, try this below:&lt;/p&gt;
+
+&lt;p&gt;execute the comand: set PATH=%PATH%;C:\Users\Thamara Alves\AppData\Local\Programs\Git\bin&lt;/p&gt;
+
+&lt;p&gt;but, change the &lt;Name of=&quot;&quot; the=&quot;&quot; computer=&quot;&quot;&gt;&lt;/Name&gt;&lt;/p&gt;
+
+&lt;p&gt;set PATH=%PATH%;&lt;git path=&quot;&quot;&gt;;&lt;/git&gt;&lt;/p&gt;
+
+&lt;p&gt;So, like this:&lt;/p&gt;
+
+&lt;p&gt;set PATH=%PATH%;C:\Program Files\Git\bin;&lt;/p&gt;
+
+&lt;p&gt;Or this: (Notice the (x86) )&lt;/p&gt;
+
+&lt;p&gt;set PATH=%PATH%;C:\Program Files (x86)\Git\bin;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comands to install new elements:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;inside the path: Scripts\bower_components\webcomponentsjs&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;execute the comand: bower install –save PolymerElements&lt;/p&gt;
+
+
+    </content>
+  </entry>
+  
+  
+  
+  <entry>
+    <id>http://thamaraaalves.github.com/hello-world</id>
+    <title>Hello world from Thamara Silva Alves</title>
+    <updated>2014-07-23T00:00:00+00:00</updated>
+    <link href="http://thamaraaalves.github.com/hello-world/" />
+    <author>
+      <name>Thamara Alves</name>
+      <uri>http://thamaraaalves.github.com/</uri>
+    </author>
+    <content type="html">
+      &lt;p&gt; Hello, guys! This is my first post here. I intend to write just in English. I arrived from Canada a week. Now, I will keep practicing English in my life. &lt;/p&gt;
+
+&lt;p&gt; So, I’m gonna use this blog to write things I did in Canada, my experience, my intentions, and what I’m learning, my doubts, anyway keep two or one posts a week. &lt;/p&gt;
+
+&lt;p&gt; “If you don’t like something, change it. If you can’t change it, change your attitude.” M.A. &lt;/p&gt;
+
+
+    </content>
+  </entry>
+  
+  
+</feed>

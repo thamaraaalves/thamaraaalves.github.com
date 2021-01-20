@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://thamaraalves.com/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/blog/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/projects/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/About/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/using-vagrant-with-asp-net-core/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/using-your-development-environment-in-the-cloud-as-sample-my-website/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/music-suggestion-of-the-day/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/simple-way-to-create-and-use-shadow-dom/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/french-music-suggestion/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/blog/page2/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/using-selector-gadget/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/create-a-web-project-with-mvc-7-ef6-visual-studio-2015/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/using-polymer-in-visual-studio-webform-project/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+<url>
+  <loc>http://thamaraalves.com/hello-world/</loc>
+  <lastmod>2016-12-28T20:27:55+00:00</lastmod>
+</url>
+</urlset>
