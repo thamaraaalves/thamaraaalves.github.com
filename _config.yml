@@ -67,7 +67,7 @@ rdiscount:
 excerpt_separator: "<!-- more -->"
 
 # add this plugin to gems
-gems:           ['jekyll-multiple-languages']
+gems:           ['jekyll-multiple-languages', 'jekyll-remote-theme'']
 # if you want to use pagination, you should add jekyll-paginate into gems
 # and make sure it is in front of jekyll-multiple-languages
 # gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
