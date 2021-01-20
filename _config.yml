@@ -14,7 +14,7 @@ comments: true
 
 source:      .
 destination: ./_site
-plugins:     ./_plugins
+plugins_dir:     ./_plugins
 paginate_path: 'blog/page:num'
 
 future:      true
